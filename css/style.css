@@ -1,0 +1,134 @@
+*, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+   
+}
+
+.more-margin{
+    margin: 4em  auto;
+}
+
+.feature-sec{
+    background-image:url(../img/foodiesfeed.com_fried-rice-with-shrimps.jpg);
+    background-position: center 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-w{
+    width: 93%;
+}
+
+.text-w{
+    width: 33%;
+}
+
+.pic-w-lg{
+    width: 96%;
+}
+
+.pic-w-sm{
+    width: 89%;
+}
+
+.img-h{
+    height: 250px;
+}
+
+.w-text{
+    width: 86%;
+}
+
+.btn-w{
+    width: 35%;
+}
+
+.current{
+    text-decoration: underline;
+}
+
+.mx{
+    margin: 0 4.5em;
+}
+
+
+
+
+
+@media (min-width: 560px){
+    .email-w{
+        width: 95%;
+    }
+
+    .btn-w{
+        width: 18% !important;
+    }
+    
+}
+
+@media (min-width: 960px){
+    .pic-w-lg{
+        width: 96%;
+    }
+
+    .name{
+        margin-left: 15em;
+
+    }
+
+    .field-w{
+        width: 60%;
+        margin-left: 10em !important;
+    }
+    
+
+    .formname{
+        margin-left: 10em !important;
+        line-height: 35px;
+    }
+
+    .field-lg{
+       margin-left: -5em !important;
+       margin-right: -5em !important;
+    }
+
+    .email-w{
+        margin-left: 15em;
+        width: 47.5%;
+    }
+
+    .btn-w{
+        margin-left: 15em;
+        width: 12% !important;
+    }
+
+    .w-text{
+        width: 55%
+    }
+
+    .lg-w{
+        width: 50%;
+    }
+
+    .img-h{
+        height: 400px;
+    }
+
+    .center{
+        margin-left: 5em;
+    }
+
+    .box-w{
+        width: 94%;
+    }
+
+    .width-lg{
+        margin-left: 0;
+    }
+    
+}

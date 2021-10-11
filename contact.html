@@ -11,16 +11,27 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="navbar navbar-collapse sticky-top bg-black px-md-4 px-lg-4">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top px-md-4 px-lg-4">
         <div class="container-fluid">
-            <a href="./index.html" class="text-decoration-none mx-auto mx-md-0 mx-lg-0 fs-3 fs text-white">Nolan & Co</a>
-            <ul class="nav d-flex ps-4">
-                <li class="nav-list fs"><a href="./work.html" class="nav-link text-white">Our Work</a></li>
-                <li class="nav-list"><a href="./services.html" class="nav-link text-white px-2">Our Services </a></li>
-                <li class="nav-list current"><a href="./contact.html" class="nav-link text-white px-3">Contact</a></li>
+          <a class="navbar-brand fs-3" href="./index.html">Nolan & Co</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="./work.html">Our Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white ms-md-3 ms-lg-3" href="./services.html">Our Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active current text-white ms-md-3 ms-lg-3" aria-current="page" href="./contact.html">Contact</a>
+              </li>
             </ul>
+          </div>
         </div>
-    </div>
+    </nav>
     
     <section class="container text-white px-5">
         <h1 class="fs-2 my-5 py-5 mx-auto fw-bold w-text">Please fill out the form below to request a quote for a project, inquire about a collaboration, or simply say hello.</h1>
